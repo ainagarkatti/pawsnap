@@ -15,13 +15,13 @@ import {
   detectEmergency,
   sanitizeText,
   DISCLAIMERS,
-} from "../../packages/safety/src/safety-rails";
-import { triageSymptoms } from "../../packages/rag/src/seed-data/symptom-triage";
+} from "../../../packages/safety/src/safety-rails";
+import { triageSymptoms } from "../../../packages/rag/src/seed-data/symptom-triage";
 import {
   retrieveContext,
   buildGroundingContext,
   buildSymptomCheckSystemPrompt,
-} from "../../packages/rag/src/query";
+} from "../../../packages/rag/src/query";
 
 // ─── Request Schema ───────────────────────────────────────────────────────────
 
