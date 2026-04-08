@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "PawSnap",
+    "slug": "pawsnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "pawsnap",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": null
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
