@@ -1,11 +1,6 @@
-import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Allow Vercel to bundle files from packages/ which live above this app's root
-  experimental: {
-    outputFileTracingRoot: path.join(__dirname, "../../"),
-  },
   async headers() {
     return [
       {

@@ -21,17 +21,17 @@ import {
   detectEmergency,
   processHealthScanOutput,
   DISCLAIMERS,
-} from "../../../../packages/safety/src/safety-rails";
+} from "../../packages/safety/src/safety-rails";
 import {
   HealthScanResultSchema,
-} from "../../../../packages/safety/src/output-schemas";
+} from "../../packages/safety/src/output-schemas";
 import {
   retrieveContext,
   buildGroundingContext,
   buildHealthScanSystemPrompt,
   assessRetrievalQuality,
-} from "../../../../packages/rag/src/query";
-import { getBreedRestrictions } from "../../../../packages/rag/src/seed-data/banned-breeds";
+} from "../../packages/rag/src/query";
+import { getBreedRestrictions } from "../../packages/rag/src/seed-data/banned-breeds";
 
 // ─── Request Schema ───────────────────────────────────────────────────────────
 
